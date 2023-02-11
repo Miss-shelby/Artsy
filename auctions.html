@@ -9,25 +9,28 @@
     <link rel="stylesheet" href="auctions.css">
 </head>
 <body>
-    <header class="w-10/12 mx-auto">
+    <header class=" sm:w-10/12 mx-auto ">
         <nav class="flex justify-between items-center">
-            <div class="harmburger-icon sm:hidden">
-                <img src="/images/hamburger-icon.png" alt="" srcset="">
+            <div class="harmburger-icon ml-4 sm:hidden">
+                <img class="ml-4" src="/images/hamburger-icon.png" alt="" srcset="">
             </div>
             <div class="logo">
                 <h1>ARTSY.</h1>
             </div>
-            <div class="menu-items">
-                <ul class="flex flex-col sm:flex-row menu-list">
-                    <div class="close flex justify-between px-5 sm:hidden">
+            <div class="menu-items ">
+                <ul class="flex flex-col px-5 sm:px-0 sm:flex-row menu-list">
+                    <div class="close flex justify-between  sm:hidden">
                         <h2 class="logo">ARTISY.</h2>
-                        <img src="/images/cancel-btn.png" class="close-btn" alt="">
+                        <img src="/images/cancel-btn.png" class="close-btn object-cover" alt="">
                     </div>
-                    <li><a href="index.html" class="ml-5   ">Home</a></li>
-                    <li><a href="product.html" class="ml-5  ">MarketPlace</a></li>
-                    <li><a href="" class="ml-5 underline underline-offset-1 font-bold">Auctions</a></li>
-                    <li><a href="drops.html" class="ml-5">Drop</a></li>
+                    <li class=" home-link"><a href="" class=" sm:ml-5  sm:underline underline-offset-1">Home</a></li>
+                    <li><a href="product.html" class="sm:ml-5">MarketPlace</a></li>
+                    <li><a href="auctions.html" class="sm:ml-5">Auctions</a></li>
+                    <li><a href="drops.html" class="sm:ml-5">Drop</a></li>
                 </ul>
+                <div class="sm:hidden flex justify-end pt-60">
+                    <img src="./images/Group 512.png" alt="" srcset="">
+                </div>
             </div>
             <div class="icons flex">
                 <img src="/images/search.png" alt="" srcset="">
@@ -98,5 +101,6 @@
             </div>
         </div>
     </section>
+    <script src="index.js"></script>
 </body>
 </html>
