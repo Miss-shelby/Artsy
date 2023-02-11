@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auctions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="auctions.css">
+</head>
+<body>
+    <header class="w-10/12 mx-auto">
+        <nav class="flex justify-between items-center">
+            <div class="harmburger-icon sm:hidden">
+                <img src="/images/hamburger-icon.png" alt="" srcset="">
+            </div>
+            <div class="logo">
+                <h1>ARTSY.</h1>
+            </div>
+            <div class="menu-items">
+                <ul class="flex flex-col sm:flex-row menu-list">
+                    <div class="close flex justify-between px-5 sm:hidden">
+                        <h2 class="logo">ARTISY.</h2>
+                        <img src="/images/cancel-btn.png" class="close-btn" alt="">
+                    </div>
+                    <li><a href="index.html" class="ml-5   ">Home</a></li>
+                    <li><a href="product.html" class="ml-5  ">MarketPlace</a></li>
+                    <li><a href="" class="ml-5 underline underline-offset-1 font-bold">Auctions</a></li>
+                    <li><a href="drops.html" class="ml-5">Drop</a></li>
+                </ul>
+            </div>
+            <div class="icons flex">
+                <img src="/images/search.png" alt="" srcset="">
+                <img src="/images/cart.png" class="mx-5" alt="" srcset="">
+                <img src="/images/bell.png" class="bell-icon" alt="" srcset="">
+            </div>
+        </nav>
+    </header>
+    <div class="title w-10/12 mx-auto">
+        <h3 class="home-title text-xl mt-10 font-satoshi font-semi-bold">Home/ Auctions/<span class="text-black">Auctions</span></h3>
+        <p class="text-xl mt-10 font-satoshi font-semi-bold">Here’s an overview of products actively on auction, explore!</p>
+    </div>
+    <section class="auctions w-10/12 mx-auto">
+        <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+            <div class="first-col bg-cover bg-no-repeat bg-center rounded-2xl" style="background-image: url(images/Rectangle\ 247.png)">
+                 <div class="flex justify-center mt-60 mb-10"><button class="btn px-4 py-1">6hr : 40mins: 15s</button></div>
+            </div>
+            <div class="first-col bg-cover bg-no-repeat bg-center rounded-2xl" style="background-image: url(./images/Rectangle\ 245.png);">
+                <div class="flex justify-center mt-60 mb-10"><button class="btn px-4 py-1">6hr : 40mins: 15s</button></div>
+            </div>
+            <div class="first-col bg-cover bg-no-repeat bg-center rounded-2xl" style="background-image: url(./images/Rectangle\ 246.png);">
+                <div class="flex justify-center mt-60 mb-10"><button class="btn px-4 py-1">6hr : 40mins: 15s</button></div>
+            </div>
+            <p class="font-Satoshi font-bold text-2xl">Top bids from popular creators</p>
+        </div>
+        <div class="grid gap-12 sm:grid-cols-2 my-6">
+            <div class="container">
+                <div class="box1 border flex flex-col px-4">
+                    <div class="justify-end py-4">
+                        <img class="object-contain h-8 w-9 border border-black rounded-full p-2" src="./images/Vector (31).png" alt=""
+                            srcset="">
+                    </div>
+                    <img class="onject-contain " src="./images/Rectangle 57.png" alt="" srcset="">
+                    <p class="py-4 font-Satoshi font-bold text-xl">Out of the box</p>
+                </div>
+                <p class="dark-grey font-satoshi py-4">Creator : <span class="text-black font-satoshi font-bold">Dan Murray</span></p>
+                <p class="dark-grey font-satoshi py-3">Date : <span class="text-black font-satoshi font-bold">12/08/22</span></p>
+                <p class="dark-grey font-satoshi py-4">Highest bid : <span class="text-black font-satoshi font-bold">0.57 ETH</span></p>
+                <div class="bid flex justify-between p-3">
+                    <div class="current-bid">
+                        <p class="font-satoshi dark-grey">Current bid</p>
+                        <p class="font-satoshi font-bold">0.987 ETH</p>
+                    </div>
+                    <button class="bid-btn text-center px-8 text-sm">Place bid</button>
+                </div>
+            </div>
+            <div class="container ">
+                <div class="box1 border flex flex-col px-4">
+                    <div class="justify-end py-4">
+                        <img class="object-contain h-8 w-9 border border-black rounded-full p-2" src="./images/Vector (32).png"
+                            alt="" srcset="">
+                    </div>
+                    <img class="onject-contain " src="./images/Rectangle 58.png" alt="" srcset="">
+                    <p class="py-4 font-Satoshi font-bold text-xl">Falling apart</p>
+                </div>
+                <p class="dark-grey font-satoshi py-4">Creator : <span class="text-black font-satoshi font-bold">Jacob Banks</span>
+                </p>
+                <p class="dark-grey font-satoshi py-3">Date : <span class="text-black font-satoshi font-bold">12/08/22</span></p>
+                <p class="dark-grey font-satoshi py-4">Highest bid : <span class="text-black font-satoshi font-bold">0.34 ETH</span>
+                </p>
+                <div class="bid flex justify-between p-3">
+                    <div class="current-bid">
+                        <p class="font-satoshi dark-grey">Current bid</p>
+                        <p class="font-satoshi font-bold">0.99 ETH</p>
+                    </div>
+                    <button class="bid-btn text-center px-8 text-sm">Place bid</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

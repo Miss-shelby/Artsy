@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --black:#292929;
+   
+}
+.black{
+    color: #333333;
+}
+.font-satoshi{
+   font-family: 'Satoshi';
+    font-style: normal; ;
+}
+.font-clash{
+    font-family: 'Clash Display';
+    font-style: normal;
+}
+.logo {
+    font-weight: 700;
+    font-size: 32px;
+    color:var(--black);
+}
+ul li a{
+    
+        font-weight: 500;
+        font-size: 24px;
+        text-decoration-line: none;
+        color: var(--black);
+}
+.hero-heading{ 
+    color: var(--black);
+}
+.hero-paragraph{
+    font-family: 'Satoshi';
+    font-style: normal;
+    color: var(--black);
+}
+.home-carousel{
+    animation-name: skew;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   
+    
+}
+@keyframes skew {
+    from {
+           transform: translateX(0);
+        }
+    
+        to {
+            transform: translateX(-10%);
+        }
+}
+
+.product{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 65px;
+    color: #333333;
+}
+
+.product-heading{
+    font-family: 'STIX Two Text';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+}
+.product-text{
+   width: 100%;
+    font-family: 'Satoshi';
+        font-style: normal;
+        /* font-weight: 400;
+        font-size: 22px;
+        line-height: 32px; */
+    
+        color: #333333;
+}
+.product-img1{
+    background-image: url(./images/Rectangle\ 299.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.product-img2 {
+    background-image: url(./images/Rectangle\ 299\ \(1\).png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-img3 {
+    background-image: url(./images/Rectangle\ 299\ \(2\).png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.arrow-next{
+    color: white;
+}
+.img-creators{
+ position: relative;
+}
+.img-1,.img-2,.img-3,.img-4,.img-5{
+   position: relative;
+}
+.img-2{
+    position: absolute;
+    left:25px;
+}
+.img-3 {
+    position: absolute;
+    left: 55px;
+}
+.img-4 {
+    position: absolute;
+    left: 85px;
+}
+.img-5 {
+    position: absolute;
+    left: 120px;
+}
+
+.creators-para p{
+    font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+    
+        color: #333333;
+}
+.auction{
+    background: linear-gradient(99.99deg, #4693ED -26.21%, #79C2D2 22.16%, rgba(192, 86, 9, 0.49) 111.62%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.auction-image{
+    background-image: url(./images/Rectangle\ 91.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    height: 73vh;
+}
+.auction-image .auction-title{
+    font-family: 'Bellefair';
+    font-style: italic;
+}
+.next{
+    background-color:transparent;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 7.77035px 7.77035px 11.6555px rgba(0, 0, 0, 0.15);;
+    backdrop-filter: blur(7.77035px);
+}
+.progress-bar{
+    width: 30%;
+    background: #AEAEAE;
+    height: 7px;
+}
+.top-creators{
+    background-color: #E2E2E2;
+}
+.progress-bar2{
+    background-color:  #AEAEAE;
+    border-radius: 80px;
+    transform: rotate(-180deg);
+    height: 180px;
+    width:5px;
+    margin-right: 20px;
+
+}
+.creators-text{
+    color: rgba(0, 0, 0, 0.57);
+}
+.newsletter{
+    border:1px  solid #333333;
+}
+.newsletter-heading{
+    font-family: 'Baskervville';
+    color: #333333;
+}
+@media (max-width:800px) {
+   
+    .harmburger-icon{
+        display: block;
+        transition: all 1s ease-in;
+    }
+    nav .menu-items{
+        background-color: #fff;
+        display: none;
+        position: absolute;
+        width:100%;
+        height:100%;
+        max-width: 34rem;
+        position: fixed;
+        top:0;
+        z-index: 9999999;
+        overflow: auto;
+        transition: all 2s ease-in;
+    }
+    .menu-items li {
+      padding-top: 20px;
+    }
+    .menu-items .home-link a{
+        padding-top: 20px;
+    }
+    .bell-icon{
+        display: none;
+    }
+    .product-img1,.product-img2,.product-img3{
+      /* filter: brightness(40%); */
+      background-color: gray;
+      background-blend-mode: multiply;
+      
+    }
+    .img-1, .img-2, .img-3,.img-4,.img-5 {
+        height:40px;
+        width:40px;
+    }
+     .img-2 {
+            position: absolute;
+            left: 15px;
+        }
+    
+        .img-3 {
+            position: absolute;
+            left: 30px;
+        }
+    
+        .img-4 {
+            position: absolute;
+            left: 50px;
+        }
+    
+        .img-5 {
+            position: absolute;
+            left: 70px;
+        }
+}

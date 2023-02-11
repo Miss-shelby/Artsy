@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <header class="w-10/12 mx-auto">
+        <nav class="flex justify-between items-center">
+            <div class="harmburger-icon sm:hidden">
+                <img src="/images/hamburger-icon.png" alt="" srcset="">
+            </div>
+            <div class="logo">
+                <h1>ARTSY.</h1>
+            </div>
+            <div class="menu-items">
+                <ul class="flex flex-col sm:flex-row menu-list">
+                    <div class="close flex justify-between px-5 sm:hidden">
+                        <h2 class="logo">ARTISY.</h2>
+                        <img src="/images/cancel-btn.png" class="close-btn" alt="">
+    
+                    </div>
+                    <li><a href="index.html" class="ml-5   ">Home</a></li>
+                    <li><a href="" class="ml-5 underline underline-offset-1 font-bold ">MarketPlace</a></li>
+                    <li><a href="auctions.html" class="ml-5">Auctions</a></li>
+                    <li><a href="" class="ml-5">Drop</a></li>
+                </ul>
+            </div>
+            <div class="icons flex">
+                <img src="/images/search.png" alt="" srcset="">
+                <img src="/images/cart.png" class="mx-5" alt="" srcset="">
+                <img src="/images/bell.png" class="bell-icon" alt="" srcset="">
+            </div>
+        </nav>
+    </header>
+    <div class="search w-10/12 mx-auto mt-20">
+        <div class="container w-full">
+            <div class="grid sm:grid-cols-4 gap-2 items-center font-satoshi">
+                <div class="hidden sm:block w-3/4">
+                   <div class="search-btn flex items-center px-3 py-2  rounded-lg light-grey  text-sm ">
+                      <img src="/images/search-icon.png" class="mr-2" style="width: 17px; height: 17px;" alt="" srcset="">
+                      <p>Search</p>
+                   </div>
+                </div>
+                <div class="sm:col-span-3">
+                    <div class="button bg-white flex justify-between items-center py-3 px-1">
+                        <p class="hidden sm:block text-lg">See 1-6 of 15 results</p>
+                        <button class="flex items-center px-3 sm:hidden">
+                            <p>Filters</p><img src="/images/arrown-down.png " class="ml-2" style="height: 8px ; width: 10px;" alt="">
+                        </button>
+                        <button class=" flex items-center px-3 sm:hidden">
+                            <p>Sort by</p><img src="/images/arrown-down.png " class="ml-2" style="height: 8px ; width: 10px;" alt="">
+                        </button>
+                        <button class="hidden sm:flex items-center border px-3">
+                            <p>Sort by</p><img src="/images/arrown-down.png " class="ml-2" style="height: 8px ; width: 10px;" alt="">
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="products-container mt-10">
+            <div class="grid lg:grid-cols-4 gap-8 ">
+                <div class="hidden sm:block filter-column mt-5 w-3/4">
+                    <div class="flex items-center  font-satoshi">
+                        <img src="images/filter.png" alt="" style="width: 20px; height: 20px;" srcset="">
+                        <p class="font-semi-bold text-2xl ml-3">Filter</p>
+                    </div>
+                    <div class="line mt-1"></div>
+                    <div class="category flex mt-8 items-center justify-between ">
+                        <h3 class="font-satoshi font-bold text-xl pb-5">By category</h3>
+                        <img src="/images/arrow-up.png" alt="" style="height: 8px ; width: 10px;" srcset="">
+                    </div>
+                    <ul class="container font-satoshi text-lg mt-3">
+                        <li class="flex items-center">
+                           <div class="check flex justify-center items-center mr-3">
+                            <img src="./images/checkmark.png" alt=""  srcset="" style="height: 8px ; width: 10px;"></div>
+                            <p>Editorials</p>
+                        </li>
+                        <li class="flex items-center py-2">
+                            <div class="check flex justify-center items-center mr-3">
+                                <img src="./images/checkmark.png" alt="" srcset="" style="height: 8px ; width: 10px;">
+                            </div>
+                            <p>Fashion</p>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="check  mr-3"></div>
+                            <p>optics</p>
+                        </li>
+                        <li class="flex items-center py-2">
+                            <div class="check  mr-3"></div>
+                            <p>Art & Museum</p>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="check  mr-3"></div>
+                            <p>Nature</p>
+                        </li>
+                    </ul>
+                </div>
+                <a href="productdetails.html" class="hidden sm:block card1 bg-white sm:p-2 rounded-lg font-satoshi black ">
+                    <div class="card-img1 first-col">
+                        <img src="./images/Rectangle 251.png" alt="" class="object-cover h-46 w-96" srcset="">
+                    </div>
+                    <p class="pt-1 font-normal">PHILOMENA ‘22</p>
+                    <P class="font-bold text-lg pt-2">$3.90</P>
+                </a>
+                <a href="productdetails.html" class="  card1 bg-white sm:p-2  rounded-lg font-satoshi black ">
+                    <div class="card-img1">
+                        <img class="object-cover h-46 w-96" src="./images/Rectangle 299 (5).png" alt="" srcset="">
+                    </div>
+                    <div class="flex justify-between items-center sm:hidden">
+                        <p class="pt-1 text-sm font-normal">BOOLEAN EGYPTIAN</p>
+                        <P class="font-bold text-lg pt-2">$21.00</P>
+                    </div>
+                    <p class=" hidden sm:block pt-1  font-normal">BOOLEAN EGYPTIAN</p>
+                    <P class=" hidden sm:block font-bold text-lg pt-2">$3.90</P>
+                </a>
+                <div class="sm:hidden card1 bg-white sm:p-2 rounded-lg font-satoshi ">
+                    <div class="card-img1">
+                        <img src="./images/Rectangle 62.png" alt="" class="object-cover h-46 w-96" srcset="">
+                    </div>
+                    <div class="flex justify-between items-center sm:hidden">
+                        <p class="pt-1 text-sm font-normal">ROAD TO EGYPT</p>
+                        <P class="font-bold text-lg pt-2">$11.00</P>
+                    </div>
+                </div>
+                <div class="card1 bg-white sm:p-2 rounded-lg font-satoshi ">
+                    <div class="card-img1">
+                        <img src="./images/Rectangle 49.png" alt="" class="object-cover h-46 w-96" srcset="">
+                    </div>
+                    <div class="flex justify-between items-center sm:hidden">
+                        <p class="pt-1 text-sm font-normal">BLANC</p>
+                        <P class="font-bold text-lg pt-2">$11.00</P>
+                    </div>
+                    <p class=" hidden sm:block pt-1  font-normal">BLANC</p>
+                    <P class=" hidden sm:block font-bold text-lg pt-2">$3.90</P>
+                </div>
+            </div>
+            <section class="price grid lg:grid-cols-4 gap-8 mt-12">
+                <div class="hidden sm:block mt-4 w-3/4  ">
+                    <div class="title  flex items-center justify-between">
+                        <h3 class="font-satoshi font-bold text-xl mr-20 ">By Price</h3>
+                        <img src="/images/arrow-up.png" alt="" style="height: 8px ; width: 10px;" srcset="">
+                    </div>
+                   <p class="mt-6 font-satoshi">$100.00-$150.00</p>
+                </div> 
+                <div class="card1 bg-white sm:p-2 rounded-lg font-satoshi black sm:mt-10">
+                    <div class="card-img1">
+                        <img src="./images/Rectangle 53.png" alt="" class="object-cover h-46 w-96" srcset="">
+                    </div>
+                   <div class="flex justify-between items-center sm:hidden">
+                      <p class="pt-1 text-sm font-normal">ELLIPSIA</p>
+                      <P class="font-bold text-lg pt-2">$11.00</P>
+                   </div>
+                   <p class=" hidden sm:block pt-1  font-normal">ELLIPSIA</p>
+                   <P class=" hidden sm:block font-bold text-lg pt-2">$3.90</P>
+                </div>
+                <div class="card1 bg-white sm:p-2 rounded-lg font-satoshi black sm:mt-10">
+                    <div class="card-img1">
+                        <img src="./images/law.png" alt="" class="object-cover h-46 w-96" srcset="">
+                    </div>
+                    <div class="flex justify-between items-center sm:hidden">
+                        <p class="pt-1 text-sm font-normal">THE LAWMAKERS</p>
+                        <P class="font-bold text-lg pt-2">$30.00</P>
+                    </div>
+                    <p class=" hidden sm:block pt-1  font-normal">THE LAWMAKERS</p>
+                    <P class=" hidden sm:block font-bold text-lg pt-2">$3.90</P>
+                </div>
+                <div class="hidden sm:block card1 bg-white sm:p-2 rounded-lg font-satoshi mt-10">
+                    <div class="card-img1">
+                        <img src="./images/Rectangle 50.png" alt="" class="object-cover h-46 w-96" srcset="">
+                    </div>
+                    <p class="pt-1 font-normal">VEIL</p>
+                    <P class="font-bold text-lg pt-2">$3.90</P>
+                </div>
+            </section>
+            <section class=" artist hidden sm:grid lg:grid-cols-4 gap-8 ">
+                <div class=" mt-3 w-3/4 ">
+                    <div class="title flex items-center">
+                        <h3 class="font-satoshi font-bold text-xl mr-20 ">By artist</h3>
+                        <img src="/images/arrow-up.png" alt="" style="height: 8px ; width: 10px;" srcset="">
+                    </div>
+                    <p class=" font-satoshi">All</p>
+                    <p class="my-3 font-satoshi">Below $100.00</p>
+                    <p class=" font-satoshi">$100.00 - $150.00</p>
+                    <p class=" my-3 font-satoshi">$150.00 - $200.00</p>
+                    <p class=" font-satoshi">Above $200.00</p>
+                    <div class="title flex  justify-between items-center  mt-14 ">
+                        <h3 class="font-satoshi font-bold text-xl ">Collection year</h3>
+                        <img src="/images/arrow-up.png" alt="" style="height: 8px ; width: 10px;" srcset="">
+                    </div>
+                </div>
+            
+                <div class="card1 bg-white sm:p-2 rounded-lg font-satoshi black mt-10">
+                    <div class="card-img1">
+                        <img src="./images/Rectangle 48.png" alt="" class="object-cover h-46 w-96" srcset="">
+                    </div>
+                    <p class="pt-1 font-normal">ALTERNATING</p>
+                    <P class="font-bold text-lg pt-2">$3.90</P>
+                </div>
+                <div class="card1 bg-white sm:p-2 rounded-lg font-satoshi black mt-10">
+                    <div class="card-img1">
+                        <img src="./images/rosemary.png" alt="" class="object-cover h-46 w-96" srcset="">
+                    </div>
+                    <p class="pt-1 font-normal">ROSEMARY ‘22</p>
+                    <P class="font-bold text-lg pt-2">$3.90</P>
+                </div>
+                <div class="card1 bg-white sm:p-2 rounded-lg font-satoshi mt-10">
+                    <div class="card-img1">
+                        <img src="./images/Rectangle 55.png" alt="" class="object-cover h-46 w-96" srcset="">
+                    </div>
+                    <p class="pt-1 font-normal">BEVERLY</p>
+                    <P class="font-bold text-lg pt-2">$3.90</P>
+                </div>
+            </section>
+            <div class="hidden sm:flex justify-center my-20">
+                <button class="border-2 py-4 px-12 text-2xl font-semi-bold text-center rounded-lg">see more</button>
+            </div>
+            <div class=" sm:hidden flex justify-end my-10">
+                <button class=" py-2 px-6 text-xl font-semi-bold text-center rounded-lg">Load more</button>
+                <img class="border rounded-full p-2 object-cover h-10 w-12" src="images/Vector (33).png" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+    <footer class="px-3 sm:hidden">
+        <div class="newsletter  mb-6">
+            <div class="container ">
+                <h3 class="uppercase text-2xl font-semi-bold newsletter-heading">NewsLetter</h3>
+                <p class="font-satoshi text-xl mt-3 sm:hidden">Subscribe to get daily updates on new drops</p>
+                <form action="" class="flex flex-col sm:flex-row w-full justify-center mt-5">
+                    <label class="block  mr-3 mb-4 sm:mb-0">
+                        <input type="email" name="email"
+                            class="mt-1 px-12 py-2 bg-white border border-black shadow-sm uppercase placeholder-black  block   sm:text-xs "
+                            placeholder="Enter your Email" />
+                    </label>
+                    <button
+                        class="bg-black border text-white py-3 px-8 text-xs uppercase block w-6/12">Subscribe</button>
+                </form>
+            </div>
+        <div class="font-satoshi black sm:hidden">
+            <p class="text-lg pb-4">Reach us</p>
+            <div class="flex items-center">
+                <img src="/images/msg (1).png" alt="" srcset="" style="width: 32px; height: 25px;">
+                <p class="ml-3"> <a href="http://">artsystudios@gmail.com</a></p>
+            </div>
+            <div class="flex items-center mt-3">
+                <img src="/images/location-icon.png" alt="" srcset="" style="width: 25px; height: 30px;">
+                <p class="ml-3"> <a href="http://">Lagos, Nigeria.</a> </p>
+            </div>
+        
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

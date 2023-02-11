@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #292929;
+
+}
+
+.light-grey {
+    color: #999999;
+}
+
+.black {
+    color: #333333;
+}
+
+.dark-grey {
+    color: #616161;
+}
+
+.font-satoshi {
+    font-family: 'Satoshi';
+    font-style: normal;
+    ;
+}
+.font-inter{
+    font-family: 'Inter';
+}
+
+.logo h1 {
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--black);
+}
+
+ul li a {
+    font-size: 24px;
+    text-decoration-line: none;
+    color: var(--black);
+}
+
+.home-title {
+    color: #BCB7B7;
+
+}
+.btn {
+    background: rgba(245, 244, 244, 0.24);
+    border: 0.5px solid #FFFFFF;
+    backdrop-filter: blur(1.5px);
+    border-radius: 8px;
+    font-family: 'STIX Two Math';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.btn .span-btn{
+    background: #4693ED;
+    border-radius: 15px;
+}
+.btn-upcoming{
+    background: #4693ED;
+     border-radius: 10px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;
+}
+.creator{
+    color:#006CA2;
+}
+.live-btn{
+    background: #3EA03B;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;
+}
+.btn .span-btn2{
+    background: #B8BABC;
+    border-radius: 15px;
+}
+.end-btn{
+    background: #999EA5;
+    border-radius: 10px;
+    color: white;
+}
